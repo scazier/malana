@@ -7,5 +7,5 @@ RUN /tmp/install.sh
 
 ADD files/list.sh /root/list.sh
 RUN chmod +x /root/list.sh
-RUN echo "[!] Run 'list' to see which tools is installed" >> /root/.bashrc
-RUN "/root/list.sh" >> /root/.bashrc
+RUN echo "echo '[!] Run 'list' to see which tools is installed'" >> /root/.bashrc
+RUN ln -s /root/list.sh /usr/local/bin/list
