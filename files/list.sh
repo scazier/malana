@@ -1,0 +1,8 @@
+echo "[!] Installed tools:"
+echo -e "\tViper Monkey : vmonkey"
+echo -e "\tPeePDF : peepdf"
+echo -e "\tBinwalk : binwalk"
+echo -e "\tEXIFTool : exiftool"
+echo -e "\tYARA : yara"
+echo -e "\tClamAV : clamscan"
+echo -e "\tPFF Export : pffexport"
